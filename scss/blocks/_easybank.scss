@@ -1,0 +1,233 @@
+.easybank{
+    background-color: #F4F5F7;
+    z-index: 1;
+}
+
+.easybank-inner__title {
+    width: 450px;
+    margin: 0;
+    padding-top: 94px;
+    font-family: $main-fonfamily-Public-Sans;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+}
+.easybank-inner__text {
+    width: 635px;
+    margin: 0;
+    margin-top: 16px;
+    font-family: $main-fonfamily-Public-Sans;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: #9597A5;
+}
+.easybank-inner__list {
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.easybank-inner__list__item {
+    width: 255px;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        background-image: url(../images/cards.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+        top: -20px;
+    }
+}
+
+.easybank-inner__list__item1{
+    width: 255px;
+    margin-left: 30px;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        background-image: url(../images/phone.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+        top: -20px;
+    }
+}
+
+.easybank-inner__list__item2{
+    width: 255px;
+    margin-left: 30px;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        background-image: url(../images/peoples.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+        top: -20px;
+    }
+}
+
+.easybank-inner__list__item3{
+    width: 255px;
+    margin-left: 30px;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        background-image: url(../images/cheep.svg);
+        background-repeat: no-repeat;
+        z-index: 2;
+        top: -20px;
+    }
+}
+
+.easybank-inner__list__item__title {
+    width: 190px;
+    margin: 0;
+    padding-top: 80px;
+    font-family: $main-fonfamily-Public-Sans;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: #2D314D;
+}
+.easybank-inner__list__item__text {
+    width: 260px;
+    margin: 0;
+    margin-top: 26px;
+    margin-bottom: 130px;
+    font-family: $main-fonfamily-Public-Sans;
+    font-weight: 150;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    color: #9597A5;
+}
+
+
+
+
+@media only screen and (max-width: 426px) {
+    .easybank-inner{
+        width: 100%;
+        max-width: 326px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .easybank-inner__title {
+        display: block;
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+        padding-top: 54px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .easybank-inner__text {
+        width: 100%;
+        display: block;
+        max-width: 260px;
+        margin: 0 auto;
+        margin-top: 8px;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .easybank-inner__list {
+        max-width: 326px;
+        margin: 0 auto;
+        margin-top: 44px;
+        display: block;
+    }
+    .easybank-inner__list__item{
+        max-width: 255px;
+        margin: 0 auto;
+        margin-top: 80px;
+        position: relative;
+
+        &::before{
+            top: -40px;
+            left: 92px;
+        }
+
+    }
+    
+    .easybank-inner__list__item1{
+        max-width: 255px;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+
+        &::before{
+            top: -40px;
+            left: 92px;
+        }
+    }
+    
+    .easybank-inner__list__item2{
+        max-width: 255px;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+
+        &::before{
+            top: -40px;
+            left: 92px;
+        }
+    }
+    
+    .easybank-inner__list__item3{
+        max-width: 255px;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+
+        &::before{
+            top: -40px;
+            left: 92px;
+        }
+    }
+    
+    .easybank-inner__list__item__title {
+        width: 100%;
+        display: block;
+        max-width: 120px;
+        margin: 0 auto;
+        padding-top: 40px;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .easybank-inner__list__item__text {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: 160px;
+        margin-top: 16px;
+        padding-bottom: 40px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    
+}
