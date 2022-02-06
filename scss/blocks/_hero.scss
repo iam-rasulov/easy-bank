@@ -59,25 +59,25 @@
         margin: 0 auto;
     }
     .hero-inner__title {
-        max-width: 200px;
+        max-width: 260px;
         padding-top: 254px;
         margin: 0 auto;
         margin-top: 16px;
         margin-bottom: 16px;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 35px;
+        line-height: 37px;
         letter-spacing: -1px;
         color: #2D314D;
         z-index: 4;
     }
     .hero-inner__text {
-        width: 220px;
+        max-width: 255px;
         margin: 0 auto;
         padding-bottom: 14px;
         font-family: $main-fonfamily-Public-Sans;
         font-weight: 200;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 15px;
+        line-height: 25px;
         letter-spacing: -1px;
         z-index: 4;
         color: #2D314D;
@@ -85,9 +85,9 @@
 
     .hero-link {
         display: block;
-        max-width: 100px;            
+        max-width: 150px;            
             margin: 0 auto;
-            padding: 7px 18px;
+            padding: 15px 36px;
             font-size: 8px;
             line-height: 100%;
             border-radius: 30px;   
