@@ -1047,13 +1047,13 @@ header {
   }
   .articles-inner__list__item {
     width: 100%;
-    max-width: 310px;
+    max-width: 327px;
     margin: 0 auto;
   }
   .articles-inner__list__item__img {
     display: block;
     width: 100%;
-    max-width: 386px;
+    max-width: 327px;
     margin: 0 auto;
   }
   .articles-inner__list__item__title {
