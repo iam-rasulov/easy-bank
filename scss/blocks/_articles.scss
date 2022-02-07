@@ -77,12 +77,13 @@
 @media only screen and (max-width: 426px) {
     .articles-inner{
         width: 100%;
-        max-width: 326px;
+        max-width: 375px;
         margin: 0 auto;
         padding: 0;
     }
     
     .articles-inner__title{
+        max-width: 327px;
         margin-bottom: 20px;
         padding-top: 40px;
         font-size: 20px;
@@ -93,7 +94,7 @@
     .articles-inner__list{
         display: block;
         width: 100%;
-        max-width: 386px;
+        max-width: 375px;
         margin: 0 auto;
     }
     
@@ -128,7 +129,7 @@
         margin: 0;
         margin-top: 8px;
         margin-left: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 112px;
         font-family: $main-fonfamily-Public-Sans;
         font-weight: 150;
         font-size: 13px;

@@ -1,22 +1,21 @@
 .hero{
-    // background-image: url(../images/hero-bg.png);
-    // background-repeat: no-repeat;
-    // background-position: calc(50% + 640px);
     background-color: #F2F2F2;
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 565px) calc(50% - 120px);
 }
 
 .hero-inner{
+    z-index: 2;
     margin: 0 auto;
-    max-width: 1110px;
-    height: 561px;
+    max-width: 1440px;
+    height: 800px;
     margin-top: 80px;
-    position: relative;
-
 }
 
 .hero-inner__title {
     width: 404px;
-    padding-top: 94px;
+    padding-top: 170px;
     font-family: $main-fonfamily-Public-Sans;
     font-weight: 200;
     font-size: 56px;
@@ -27,7 +26,7 @@
 
 .hero-inner__text {
     width: 447px;
-    padding-bottom: 44px;
+    padding-bottom: 64px;
     font-family: $main-fonfamily-Public-Sans;
     font-weight: 200;
     font-size: 18px;
@@ -43,23 +42,35 @@
     left: 630px;
 }
 
+.hero-inner__span{
+    height: 200px;
+    padding-bottom: 180px;
+}
+
 
 
 
 
 @media only screen and (max-width: 426px) {
+   .hero{
+       background-image: url(../images/hero-bg-mobile.png);
+       background-repeat: no-repeat;
+
+       background-position: calc(70% + 490px) calc(70% - 200px);
+   }
+    
     .hero-inner {
         width: 100%;
-        max-width: 326px;
+        max-width: 375px;
         max-height: 400px;
         display: block;
         margin-top: 80px;
         text-align: center;
-        margin:  0;
+        margin: 0;
         margin: 0 auto;
     }
     .hero-inner__title {
-        max-width: 260px;
+        max-width: 327px;
         padding-top: 254px;
         margin: 0 auto;
         margin-top: 16px;
@@ -71,7 +82,7 @@
         z-index: 4;
     }
     .hero-inner__text {
-        max-width: 255px;
+        max-width: 327px;
         margin: 0 auto;
         padding-bottom: 14px;
         font-family: $main-fonfamily-Public-Sans;
@@ -94,13 +105,13 @@
             z-index: 4;
     }
 
-    .hero-inner__img {
-        max-width: 326px;
-        margin: 0 auto;
-        position: absolute;
-        z-index: 3;
-        top: -15px;
-        left: 77px;
-    }
+    // .hero-inner__img {
+    //     max-width: 386px;
+    //     margin: 0 auto;
+    //     position: absolute;
+    //     z-index: 3;
+    //     top: -15px;
+    //     left: 77px;
+    // }
 
 }

@@ -53,7 +53,7 @@ header{
                 height: 4px;
                 position: absolute;
                 z-index: 3;
-                background-image: url(../images/item-bg.png);
+                background-image: linear-gradient(135deg , #33D35E , #2AB6D9);
                 background-repeat: no-repeat;
                 top: 38px;
                 left: 0;
@@ -71,7 +71,7 @@ header{
                     height: 4px;
                     position: absolute;
                     z-index: 3;
-                    background-image: url(../images/item-bg.png);
+                    background-image: linear-gradient(135deg , #33D35E , #2AB6D9);
                     background-repeat: no-repeat;
                     top: 38px;
                     left: 1px;
@@ -90,8 +90,7 @@ header{
                     height: 4px;
                     position: absolute;
                     z-index: 3;
-                    background-image: url(../images/item-bg.png);
-                    background-repeat: no-repeat;
+                    background-image: linear-gradient(135deg , #33D35E , #2AB6D9);
                     top: 38px;
                     left: 1px;
                 }
@@ -109,7 +108,7 @@ header{
                     height: 4px;
                     position: absolute;
                     z-index: 3;
-                    background-image: url(../images/item-bg.png);
+                    background-image: linear-gradient(135deg , #33D35E , #2AB6D9);
                     background-repeat: no-repeat;
                     top: 38px;
                     left: 1px;
@@ -132,7 +131,7 @@ header{
 
 .link{
     width: 170px;
-    padding: 15px 31px;
+    padding: 15px 36px;
     font-family: $main-fonfamily-Public-Sans;
     font-size: 14px;
     line-height: 100%;
@@ -161,7 +160,7 @@ header{
     
     .header-inner{
         width: 100%;
-        max-width: 326px;
+        max-width: 375px;
         padding: 26px 0;
         margin: 0 auto;
         display: flex;

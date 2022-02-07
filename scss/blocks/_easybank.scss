@@ -1,5 +1,10 @@
 .easybank{
     background-color: #F4F5F7;
+}
+
+.easybank-inner{
+    margin-top: -200px;
+    position: relative;
     z-index: 1;
 }
 
@@ -129,7 +134,7 @@
 @media only screen and (max-width: 426px) {
     .easybank-inner{
         width: 100%;
-        max-width: 326px;
+        max-width: 375px;
         text-align: center;
         margin: 0 auto;
     }
@@ -137,7 +142,7 @@
     .easybank-inner__title {
         display: block;
         width: 100%;
-        max-width: 220px;
+        max-width: 375px;
         margin: 0 auto;
         padding-top: 150px;
         font-size: 30px;
@@ -146,7 +151,7 @@
     .easybank-inner__text {
         width: 100%;
         display: block;
-        max-width: 260px;
+        max-width: 375px;
         margin: 0 auto;
         margin-top: 8px;
         font-weight: 200;
@@ -154,13 +159,13 @@
         line-height: 25px;
     }
     .easybank-inner__list {
-        max-width: 326px;
+        max-width: 327px;
         margin: 0 auto;
         margin-top: 44px;
         display: block;
     }
     .easybank-inner__list__item{
-        max-width: 255px;
+        max-width: 327px;
         margin: 0 auto;
         margin-top: 80px;
         position: relative;
@@ -173,7 +178,7 @@
     }
     
     .easybank-inner__list__item1{
-        max-width: 255px;
+        max-width: 327px;
         margin: 0 auto;
         margin-top: 40px;
         position: relative;
@@ -185,7 +190,7 @@
     }
     
     .easybank-inner__list__item2{
-        max-width: 255px;
+        max-width: 327px;
         margin: 0 auto;
         margin-top: 40px;
         position: relative;
@@ -197,7 +202,7 @@
     }
     
     .easybank-inner__list__item3{
-        max-width: 255px;
+        max-width: 327px;
         margin: 0 auto;
         margin-top: 40px;
         position: relative;
@@ -211,21 +216,23 @@
     .easybank-inner__list__item__title {
         width: 100%;
         display: block;
-        max-width: 180px;
+        max-width: 327px;
         margin: 0 auto;
         padding-top: 40px;
         font-weight: 200;
         font-size: 20px;
         line-height: 26px;
+        text-align: center;
     }
     .easybank-inner__list__item__text {
         width: 100%;
         display: block;
         margin: 0 auto;
-        max-width: 255px;
+        max-width: 327px;
         margin-top: 16px;
         padding-bottom: 40px;
         font-size: 14px;
+        text-align: center;
         line-height: 18px;
     }
 
