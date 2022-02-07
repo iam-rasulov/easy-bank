@@ -200,3 +200,68 @@ footer{
     }
 
 }
+
+
+
+
+@media only screen and (max-width: 321px) {
+
+    .footer-inner{
+        width: 100%;
+        max-width: 280px;
+        display: block;
+        margin: 0 auto;
+        padding: 0; 
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-inner__logo__span{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .footer-inner__list-box__navbar{
+        width: 100%;
+        margin:  0 auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .footer-inner__list-box{
+        display: block;
+        width: 100%;
+    }
+    
+    .footer-inner__right-box{
+        display: block;
+        width: 100px;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+
+    .footer-inner__logo__span{
+        margin: 0 auto;
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+
+    .footer-inner__link__img{
+        margin-top: 40px;
+    }
+
+    .footer-inner__list-box{
+        margin: 0 auto;
+    }
+      
+    .footer-link{
+        margin-top: 10px;
+    }
+
+    .footer-inner__right-box{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
