@@ -1259,6 +1259,7 @@ footer {
 
 .footer-link {
   margin-top: 30px;
+  margin-left: 65px;
 }
 
 @media only screen and (max-width: 426px) {
