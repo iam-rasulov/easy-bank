@@ -1,8 +1,7 @@
 .hero{
-    background-color: #F2F2F2;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: calc(50% + 565px) calc(50% - 120px);
+    background-position: calc(50% + 595px) calc(50% - 120px);
 }
 
 .hero-inner{
@@ -55,8 +54,7 @@
    .hero{
        background-image: url(../images/hero-bg-mobile.png);
        background-repeat: no-repeat;
-
-       background-position: calc(70% + 490px) calc(70% - 200px);
+       background-position: calc(70% + 300px) calc(70% - 0px);
    }
     
     .hero-inner {
@@ -71,7 +69,7 @@
     }
     .hero-inner__title {
         max-width: 327px;
-        padding-top: 254px;
+        padding-top: 400px;
         margin: 0 auto;
         margin-top: 16px;
         margin-bottom: 16px;

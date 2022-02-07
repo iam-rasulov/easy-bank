@@ -1,17 +1,13 @@
 .easybank{
-    background-color: #F4F5F7;
-}
-
-.easybank-inner{
-    margin-top: -200px;
+    z-index: -1;
     position: relative;
-    z-index: 1;
+    background-color: #F4F5F7;
 }
 
 .easybank-inner__title {
     width: 450px;
-    margin: 0;
-    padding-top: 94px;
+    padding-top: 86px;
+    margin-top: -180px;
     font-family: $main-fonfamily-Public-Sans;
     font-weight: 200;
     font-size: 40px;
@@ -144,7 +140,7 @@
         width: 100%;
         max-width: 375px;
         margin: 0 auto;
-        padding-top: 150px;
+        padding-top: 280px;
         font-size: 30px;
         line-height: 38px;
     }

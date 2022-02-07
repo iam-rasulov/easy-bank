@@ -564,7 +564,7 @@ header {
 }
 
 .link {
-  width: 170px;
+  width: 180px;
   padding: 15px 36px;
   font-family: "Public Sans";
   font-size: 14px;
@@ -619,10 +619,9 @@ header {
 }
 
 .hero {
-  background-color: #F2F2F2;
   background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
-  background-position: calc(50% + 565px) calc(50% - 120px);
+  background-position: calc(50% + 595px) calc(50% - 120px);
 }
 
 .hero-inner {
@@ -671,7 +670,7 @@ header {
   .hero {
     background-image: url(../images/hero-bg-mobile.png);
     background-repeat: no-repeat;
-    background-position: calc(70% + 490px) calc(70% - 200px);
+    background-position: calc(70% + 300px) calc(70% - 0px);
   }
   .hero-inner {
     width: 100%;
@@ -685,7 +684,7 @@ header {
   }
   .hero-inner__title {
     max-width: 327px;
-    padding-top: 254px;
+    padding-top: 400px;
     margin: 0 auto;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -720,19 +719,15 @@ header {
 }
 
 .easybank {
-  background-color: #F4F5F7;
-}
-
-.easybank-inner {
-  margin-top: -200px;
+  z-index: -1;
   position: relative;
-  z-index: 1;
+  background-color: #F4F5F7;
 }
 
 .easybank-inner__title {
   width: 450px;
-  margin: 0;
-  padding-top: 94px;
+  padding-top: 86px;
+  margin-top: -180px;
   font-family: "Public Sans";
   font-weight: 200;
   font-size: 40px;
@@ -869,7 +864,7 @@ header {
     width: 100%;
     max-width: 375px;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 280px;
     font-size: 30px;
     line-height: 38px;
   }
@@ -960,7 +955,7 @@ header {
 .articles-inner__title {
   margin: 0;
   margin-bottom: 40px;
-  padding-top: 80px;
+  padding-top: 40px;
   font-family: "Public Sans";
   font-weight: 200;
   font-size: 40px;
